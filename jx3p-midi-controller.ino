@@ -12,7 +12,7 @@ int continuousController = 176;
 void setup()
 {
   pinMode(ledPin, OUTPUT);
-  Serial.begin(9600); // Midi baudrate needs to be 31250
+  Serial.begin(31250); // Midi baudrate needs to be 31250
 }
 
 void loop()
